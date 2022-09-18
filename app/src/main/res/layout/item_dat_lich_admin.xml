@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:elevation="20dp"
+    app:cardCornerRadius="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/TenUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image"
+            android:text="Đặng Quốc Trung"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TenUser"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/image"
+            android:text="SĐT: 0868203860"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/ngaydat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/image"
+            android:text="Ngày đặt: Hôm nay, T5 6/1/2021 9:00"
+            android:textColor="@color/primary"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/stylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngaydat"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/image"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/tongdichvu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stylist"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/image"
+            android:text="Dịch vụ đã đặt: 4"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listdichvu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tongdichvu"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/image" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tongtien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listdichvu"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/image"
+            android:text="Tổng tiền: 576K"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/check"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/image"
+            android:background="@android:color/transparent"
+            android:src="@drawable/check" />
+        <ImageButton
+            android:src="@drawable/exit"
+            android:id="@+id/exit"
+            android:background="@android:color/transparent"
+            android:layout_below="@id/check"
+            android:layout_width="150dp"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

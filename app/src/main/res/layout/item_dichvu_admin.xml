@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_120px">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/dimen_100px"
+            android:layout_height="@dimen/dimen_100px"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_marginTop="@dimen/dimen_10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/image"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="ShineCombo cắt gội 10 bước"
+            android:textColor="@color/primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/image"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Đặc sắc nổi tiếng - Free giường massage"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/image"
+            android:text="Giá: 80K"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/Delete"
+            android:layout_width="@dimen/dimen_50px"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_10_light_gray_fill"
+            android:src="@drawable/delete" />
+
+        <ImageButton
+            android:id="@+id/Edit"
+            android:layout_width="@dimen/dimen_50px"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@id/Delete"
+            android:background="@drawable/border_10_light_gray_fill"
+            android:src="@drawable/edit" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

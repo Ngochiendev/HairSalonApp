@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8F3F2F2"
+    tools:context=".Fragment.User.ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llProfile"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imguser"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:scaleType="fitXY" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="bottom"
+                        android:text="Trung"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtchinhsua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/username"
+                        android:drawableRight="@drawable/next_black"
+                        android:gravity="center_vertical"
+                        android:text="Chỉnh sửa tài khoản"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btStilvenMember"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/member"
+                android:drawableRight="@drawable/next_black"
+                android:drawablePadding="10dp"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Stilven Member"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btninfo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/user"
+                android:drawableRight="@drawable/next_black"
+                android:drawablePadding="10dp"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Thông tin tài khoản"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/voucher"
+                android:drawableRight="@drawable/next_black"
+                android:drawablePadding="10dp"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Rewards"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnLichsucat"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/lichsucat"
+                android:drawableRight="@drawable/next_black"
+                android:drawablePadding="10dp"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Lịch sử cắt"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btHelpCenter"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/detail"
+                android:drawableRight="@drawable/next_black"
+                android:drawablePadding="10dp"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Thông tin hỗ trợ khách hàng"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btStores"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_black_push_pin_24"
+                android:drawableRight="@drawable/next_black"
+                android:drawablePadding="10dp"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Hệ thống cửa hàng"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnlogout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/logout"
+                android:drawableRight="@drawable/next_red"
+                android:drawablePadding="10dp"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Đăng xuất"
+                android:textAllCaps="false"
+                android:textColor="#F44336" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

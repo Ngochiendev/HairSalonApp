@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "909799770180",
+    "project_id": "apphairsalon",
+    "storage_bucket": "apphairsalon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909799770180:android:c0c2fe575c44bf5a9ad411",
+        "android_client_info": {
+          "package_name": "com.ngochien.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909799770180-3dmcui45jn1s5c1amubpcishiqia97bo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ngochien.myapplication",
+            "certificate_hash": "ab93394b82d52771fa10a571ded33ac886ae1352"
+          }
+        },
+        {
+          "client_id": "909799770180-5h164dl3i2kkl9si5ueqo29id2d028o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ngochien.myapplication",
+            "certificate_hash": "4f81c0ba7a1cf5f5f078941c1db2d5a16a81ca04"
+          }
+        },
+        {
+          "client_id": "909799770180-n05g80siuqnd7la9pmdej4e2agcks7hd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ngochien.myapplication",
+            "certificate_hash": "a410742020e43a8754c2db2f42f3355dca6fe9c2"
+          }
+        },
+        {
+          "client_id": "909799770180-o0j0agei9oacrb91esfua9sou2v2iga1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCowAGzd3vIssZPX1ZsvQ9KSabE0xQEw6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909799770180-o0j0agei9oacrb91esfua9sou2v2iga1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

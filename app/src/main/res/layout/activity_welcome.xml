@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.WelcomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <View
+            android:background="@mipmap/blue_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@mipmap/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:weightSum="12"
+        android:orientation="vertical"
+        android:layout_below="@id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#3360E5"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="STILVEN HAIR SALON"
+            android:layout_weight="1.8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:textColor="#3360E5"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="Create new accout"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <Button
+            android:id="@+id/btnLogin"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/layout_button_login"
+            android:text="Login"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <Button
+            android:id="@+id/btnRegister"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:text="Register"
+            android:background="@drawable/layout_button_register"
+            android:textColor="@color/primary"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

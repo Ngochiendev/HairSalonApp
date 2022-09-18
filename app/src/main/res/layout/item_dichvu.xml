@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="320dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/image"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="ShineCombo cắt gội 10 bước"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/title"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:maxLines="4"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Đặc sắc nổi tiếng - Free giường massage"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/price"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="80K"
+            android:layout_below="@id/description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/btnChon"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/price"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_chon"
+            android:text="Chọn"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

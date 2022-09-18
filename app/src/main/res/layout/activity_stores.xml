@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.User.CategoryFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50px"
+        android:layout_alignParentTop="true"
+        android:background="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="Chi nhánh cửa hàng"
+        android:textColor="@color/black_100"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/dimen_50px"
+        android:id="@+id/ivBack"
+        android:layout_height="@dimen/dimen_50px"
+        android:src="@drawable/ic_black_left_arrow"
+        android:padding="@dimen/dimen_17px"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="#EEF1F1F1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="12dp"
+                android:id="@+id/rvStore"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:horizontalSpacing="5dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:numColumns="2"
+                android:verticalSpacing="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

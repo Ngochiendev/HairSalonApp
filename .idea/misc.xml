@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/drawable-v24/border_10_light_gray_fill.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/drawable-v24/ic_gray_right_arrow.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/drawable-v24/ic_gray_search.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/drawable-v24/ic_listening.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/drawable-v24/ripple_click_square.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/layout/activity_add_dich_vu.xml" value="0.34444444444444444" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/layout/activity_add_stylist.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/layout/activity_login.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/layout/fragment_help_center.xml" value="0.2" />
+        <entry key="..\:/AnroidStudioProject/OutSource/AppHairSalon/app/src/main/res/layout/user_fragment_profile.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_10_gray_fill.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_10_light_gray_fill.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_10_light_white_fill.xml" value="0.2245" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_10_white_stroke_fill.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_10_yello_fill_stroke.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_4_white_stroke_fill.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_4_yellow_fill.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_5_light_blue_fill.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_7_light_gray_0_fill.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/border_7_light_gray_2_fill.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_black_left_arrow.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_black_plus.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_black_right_arrow.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_blue_search.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_gray_right_arrow.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_gray_search.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_left_arrow.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_plus.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ic_white_left_arrow.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable-v24/ripple_click_square_circle.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/background_da_chon_dich_vu.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/ic_baseline_black_push_pin_24.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/ic_baseline_push_pin_24.xml" value="0.209" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/ic_cancel_circle.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/lichsucat.xml" value="0.293" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/logout_black.xml" value="0.191" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/logout_white.xml" value="0.191" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/manager_fragment.xml" value="0.225" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/drawable/tab_color.xml" value="0.2245" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_add_dich_vu.xml" value="0.3260416666666667" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_add_skinner.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_add_stylist.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_add_voucher.xml" value="0.3078125" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_admin.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_chon_dich_vu.xml" value="0.290625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_dat_lich.xml" value="0.25" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_edit_dich_vu.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_edit_skinner.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_edit_stylist.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_edit_voucher.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_info_profile.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_lich_su.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_shop_item_detail.xml" value="0.25" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_stilven_member.xml" value="0.25" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_stores.xml" value="0.34322916666666664" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/activity_user.xml" value="0.32083333333333336" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/add_store_activity.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/admin_fragment_quan_ly_dat_lich.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/admin_fragment_quan_ly_stylist.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/admin_item_voucher.xml" value="0.3078125" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/admin_store_item.xml" value="0.25" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/admin_voucher_item.xml" value="0.3078125" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/fragment_help_center.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/fragment_home.xml" value="0.32083333333333336" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/fragment_quan_ly_stores.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/fragment_shop.xml" value="0.25" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/fragment_shop_item.xml" value="0.325" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/fragment_shop_item_detail.xml" value="0.33" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/fragment_stores.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/item_dat_lich_admin.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/item_dichvu.xml" value="0.3078125" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/item_dichvu_admin.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/item_hour.xml" value="1.25" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/item_lookbook.xml" value="0.321025641025641" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/item_stylist.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/item_stylist_admin.xml" value="0.33" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/lich_su_dat_item.xml" value="0.25" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/manager_fragment.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/service_manager_fragment.xml" value="0.16" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/shop_item_item.xml" value="0.25" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/skinner_manager_fragment.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/skinners_manager_fragment.xml" value="0.3614583333333333" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/staff_manager_fragment.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/store_item.xml" value="0.33" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/stylist_manager_fragment.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/stylists_manager_fragment.xml" value="0.3614583333333333" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/user_fragment_category.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/user_fragment_profile.xml" value="0.34322916666666664" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/user_home_fragment_lookbook.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/usser_fragment_home.xml" value="0.3625" />
+        <entry key="..\:/AnroidStudioProject/OutSource/android-hairsalon/app/src/main/res/layout/voucher_manager_fragment.xml" value="0.3078125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

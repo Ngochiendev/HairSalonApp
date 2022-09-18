@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: net.zetetic:android-database-sqlcipher:3.5.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e00600532cb7f5c6bf8fdd47499b5f9/jetified-android-database-sqlcipher-3.5.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/197edae9194f69dbbd0d1619c5fb83f9/transformed/jetified-android-database-sqlcipher-3.5.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/197edae9194f69dbbd0d1619c5fb83f9/transformed/jetified-android-database-sqlcipher-3.5.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/197edae9194f69dbbd0d1619c5fb83f9/transformed/jetified-android-database-sqlcipher-3.5.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.zetetic/android-database-sqlcipher/3.5.7/7ad8b6b469c96a929243f1899da6228c32ef3849/android-database-sqlcipher-3.5.7-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.zetetic/android-database-sqlcipher/3.5.7/7ad8b6b469c96a929243f1899da6228c32ef3849/android-database-sqlcipher-3.5.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.zetetic/android-database-sqlcipher/3.5.7/b2957e8329384e3a42e33ced2b0729c52f1b0685/android-database-sqlcipher-3.5.7-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.zetetic/android-database-sqlcipher/3.5.7/b2957e8329384e3a42e33ced2b0729c52f1b0685/android-database-sqlcipher-3.5.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

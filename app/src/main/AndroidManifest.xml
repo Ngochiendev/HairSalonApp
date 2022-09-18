@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ngochien.myapplication">
+
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".Activity.LichSuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AddSkinnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.EditVoucherActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AddStoreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AddVoucherActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.StilvenMemberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Fragment.User.StoresActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Fragment.User.Home.ShopItemDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.HelpCenterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AddStylistActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.EditStylistActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AddDichVuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.EditDichVuActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.ChonDichVuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.DatLichActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.EditSkinnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ShowYouTubeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ShowImageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.InfoProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityOTP.VerifyOTPActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ActivityOTP.SendOTPActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.AdminActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.UserActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".Activity.ForgotPasswordActivity" />
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.WelcomeActivity" />
+    </application>
+
+</manifest>

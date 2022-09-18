@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8F3F2F2"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.User.HomeFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:background="@color/primary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageButton
+            android:id="@+id/btnbell"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/bell" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/logo" />
+        <RelativeLayout
+            android:background="@drawable/background_taikhoan"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txttaikhoan"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Tài khoản:"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/txttaikhoan"
+                android:text="0đ"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/background"
+        android:layout_below="@id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageuser"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/user"
+            app:civ_circle_background_color="@color/white" />
+        <TextView
+            android:id="@+id/username"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Trung"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imageuser"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        app:cardCornerRadius="5dp"
+        android:elevation="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/btnDatlich"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageDatlich"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/backgrond_button"
+                    android:scaleType="center"
+                    android:src="@drawable/datlich" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginTop="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/imageDatlich"
+                    android:textSize="10dp"
+                    android:text="Đặt lịch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/btnLichsucat"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imagelichsu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/backgrond_button"
+                    android:scaleType="center"
+                    android:src="@drawable/lichsucat" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginTop="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/imagelichsu"
+                    android:textSize="10dp"
+                    android:text="Lịch sử cắt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlStilvenMember"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imagemember"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/backgrond_button"
+                    android:scaleType="center"
+                    android:src="@drawable/member" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginTop="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/imagemember"
+                    android:textSize="10dp"
+                    android:text="Stilven member"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rlVoucher"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imagevoucher"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/backgrond_button"
+                    android:scaleType="center"
+                    android:src="@drawable/voucher" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginTop="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/imagevoucher"
+                    android:textSize="10dp"
+                    android:text="Rewards"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cardview"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/white"
+                android:elevation="10dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Mời anh đánh giá chất lượng dịch vụ"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Phản hồi của anh sẽ giúp chúng em cải thiện chất\n lượng dịch vụ tốt hơn"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/star" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/star" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/star" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/star" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/star" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <fragment
+                android:id="@+id/banner"
+                android:name="com.ngochien.myapplication.Fragment.User.Home.BannerFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+            <fragment
+                android:id="@+id/tv"
+                android:name="com.ngochien.myapplication.Fragment.User.Home.TvFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+            <fragment
+                android:id="@+id/lookbook"
+                android:name="com.ngochien.myapplication.Fragment.User.Home.LookbookFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

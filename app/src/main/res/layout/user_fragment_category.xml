@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.User.CategoryFragment">
+
+    <TextView
+        android:background="@color/primary"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Khám phá"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:background="#EEF1F1F1"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:text="Cùng Stilven khám phá bảng \nxếp hạng mới nhất"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <GridView
+                android:verticalSpacing="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:horizontalSpacing="5dp"
+                android:id="@+id/rvStore"
+                android:numColumns="2"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
